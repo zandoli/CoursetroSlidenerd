@@ -1,6 +1,6 @@
 public class Typecasting {
     public static void main(String[] args) {
-        long age = 26147586932145L;
+        long age = 261475456842L;
         int yourAge = (int)age;
         System.out.println(age);
         System.out.println(yourAge);
