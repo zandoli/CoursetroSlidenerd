@@ -1,4 +1,4 @@
-public class VariablesAndConstants {
+public class Tut2VariablesAndConstants {
     public static void main(String[] args) {
         final float salary = 236.35f;
         System.out.println(salary);

@@ -1,4 +1,4 @@
-public class Typecasting {
+public class Tut3Typecasting {
     public static void main(String[] args) {
         long age = 261475456842L;
         int yourAge = (int)age;
