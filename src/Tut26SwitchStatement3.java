@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Tut14SwitchStatement3 {
+public class Tut26SwitchStatement3 {
     public static void main(String[] args) throws IOException {
 
         System.out.println("What was your grade?");

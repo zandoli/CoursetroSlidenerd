@@ -1,4 +1,4 @@
-public class Tut4ArithmeticOperators {
+public class Tut13ArithmeticOperators {
     public static void main(String[] args) {
         //what is the average of 1 + 2 + 3 + 4 + 5?
         int average = (1 + 2 + 3 + 4 + 5)/5;

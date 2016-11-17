@@ -1,4 +1,4 @@
-public class Tut5RelationalOperators {
+public class Tut15RelationalOperators {
     public static void main(String[] args) {
         boolean result = 5 > 4;
         System.out.println(result);

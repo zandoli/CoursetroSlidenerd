@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Tut14SwitchStatement {
+public class Tut25SwitchStatement {
     public static void main(String[] args) throws IOException {
 
         //System.out.println("Day number?");

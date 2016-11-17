@@ -1,4 +1,4 @@
-public class Tut13TerneryOperator2 {
+public class Tut24TerneryOperator2 {
     public static void main(String[] args) {
         int marks=2;
         char grade = marks>75?'P':'F';

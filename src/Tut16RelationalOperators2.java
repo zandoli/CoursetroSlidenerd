@@ -1,4 +1,4 @@
-public class Tut6RelationalOperators2 {
+public class Tut16RelationalOperators2 {
     public static void main(String[] args) {
         int myAge = 26;
         int yourAge = 18;

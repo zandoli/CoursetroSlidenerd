@@ -1,4 +1,4 @@
-public class Tut9IncrementDecrementLogicalOperators {
+public class Tut19IncrementDecrementLogicalOperators {
     public static void main(String[] args) {
         int a = 13, b=9;
         int c = a++ * --b + b-- - --a;

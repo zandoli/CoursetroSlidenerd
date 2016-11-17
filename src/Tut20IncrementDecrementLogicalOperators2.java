@@ -1,4 +1,4 @@
-public class Tut10IncrementDecrementLogicalOperators2 {
+public class Tut20IncrementDecrementLogicalOperators2 {
     public static void main(String[] args) {
         int myAge = 26;
         int yourAge = 27;

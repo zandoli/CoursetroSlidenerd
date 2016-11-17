@@ -1,4 +1,4 @@
-public class Tut11IfElse {
+public class Tut21IfElse {
     public static void main(String[] args) {
 
         int age = 100;
