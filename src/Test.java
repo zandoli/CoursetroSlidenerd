@@ -44,8 +44,7 @@ public class Test {
 
         for (int i = 1; i < 100; i++) {
             s5.setLength(8);
-            s5.append(i+"p");
-            //s5.replace(8,12, i+"c");
+            s5.insert(8,i+"p");
             System.out.println(s5);
         }
     }
