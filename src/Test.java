@@ -40,5 +40,13 @@ public class Test {
             s4.replace(8,12, i+"c");
             System.out.println(s4);
         }
+        StringBuilder s5 = new StringBuilder("editTextp");
+
+        for (int i = 1; i < 100; i++) {
+            s5.setLength(8);
+            s5.append(i+"p");
+            //s5.replace(8,12, i+"c");
+            System.out.println(s5);
+        }
     }
 }
