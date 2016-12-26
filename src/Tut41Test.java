@@ -1,4 +1,4 @@
-public class Test {
+public class Tut41Test {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("OpenPilot");
 
