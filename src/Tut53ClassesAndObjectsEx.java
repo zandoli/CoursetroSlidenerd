@@ -39,6 +39,8 @@ class Rectangle{
     double side1;
     double side2;
 
+
+
     double calculateArea1(){
         return side1*side2;
     }

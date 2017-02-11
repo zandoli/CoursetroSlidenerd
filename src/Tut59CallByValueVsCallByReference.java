@@ -9,8 +9,10 @@ public class Tut59CallByValueVsCallByReference {
         System.out.println("After modifying "+original);
 
         System.out.println("Before modifying "+o.side);
+        System.out.println(o.getArea());
         modify(o);
         System.out.println("After modifying "+o.side);
+        System.out.println(o.getArea());
     }
 
     public static void modify(int number){
