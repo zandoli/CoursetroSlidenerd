@@ -4,7 +4,7 @@ public class Tut48ArraysExample5 {
 
         int sum = 0;
 
-        for (int number : numbers) {
+        for (int number : numbers) {//enhanced loop
             sum = sum + number;
         }
         /*for (int i = 0; i < numbers.length; i++) {

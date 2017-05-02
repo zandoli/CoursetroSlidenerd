@@ -5,7 +5,6 @@ public class Tut36ContinueStatement {
                     continue;
                 }
             System.out.println(100/i);
-
         }
     }
 }
