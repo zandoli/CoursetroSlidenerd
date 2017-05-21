@@ -1,8 +1,13 @@
 import java.util.Scanner;
 
 public class Tut44Methods {
+    private static boolean isDivisibleBy(int no, int div) {
+        return no % div == 0;
+    }
+    private static int isMultiplied(int no, int div) {
+        return no*div;
+    }
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("What is the divisor?");
         //String sci = sc.nextLine();
@@ -18,10 +23,8 @@ public class Tut44Methods {
         //boolean result =isDivisibleBySeven(number);
         //System.out.println(result);
         System.out.println(isDivisibleBy(divisor, dividend));
-    }
-
-    private static boolean isDivisibleBy(int no, int div ){
-        return no % div == 0;
+        System.out.println(isMultiplied(divisor, dividend));
 
     }
+
 }
