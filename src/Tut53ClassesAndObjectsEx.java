@@ -12,7 +12,7 @@ public class Tut53ClassesAndObjectsEx {
 
         for (int i = 1; i <= 10 ; i++) {
             Square sq = new Square();
-            sq.side = i;
+            sq.side=i;
 
             System.out.println(sq.calculateArea());
         }
