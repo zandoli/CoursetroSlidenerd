@@ -20,7 +20,7 @@ public class Tut53ClassesAndObjectsEx {
         }*/
         Scanner sc = new Scanner(System.in);
         System.out.println("What is the length of the square?");
-        double side = Double.parseDouble(sc.nextLine());
+        double side = sc.nextDouble();
 
         Square sq = new Square();
         System.out.println(sq.calculateArea(side));
