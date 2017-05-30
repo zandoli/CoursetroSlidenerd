@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Tut53ClassesAndObjectsEx {
     public static void main(String[] args) {
 /*      Square sq = null;
@@ -10,12 +12,19 @@ public class Tut53ClassesAndObjectsEx {
         System.out.println(sq.calculateArea());
         System.out.println(sq2.calculateArea());*/
 
-        for (int i = 1; i <= 10 ; i++) {
+        /*for (int i = 1; i <= 10 ; i++) {
             Square sq = new Square();
             sq.side=i;
 
             System.out.println(sq.calculateArea());
-        }
+        }*/
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is the length of the square?");
+        double side = Double.parseDouble(sc.nextLine());
+
+        Square sq = new Square();
+        System.out.println(sq.calculateArea(side));
+
         for (int i = 1; i <= 10 ; i++) {
             Rectangle rec = new Rectangle();
             rec.side1 = i;
@@ -33,9 +42,8 @@ public class Tut53ClassesAndObjectsEx {
     }
 }
 class Square{
-    double side;
-    double calculateArea(){
-        return side*side;
+    double calculateArea(double side) {
+        return side * side;
     }
 }
 class Rectangle{
